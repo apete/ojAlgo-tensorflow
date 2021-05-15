@@ -3,7 +3,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.ojalgo</groupId>
-    <version>2.47.3</version>
+    <version>0.1.0-SNAPSHOT</version>
     <artifactId>ojalgo-tensorflow</artifactId>
     <name>ojAlgo-tensorflow</name>
     <description>ojAlgo and TensorFlow integration</description>
@@ -13,15 +13,24 @@
         <maven.compiler.source>1.8</maven.compiler.source>
     </properties>
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.tensorflow/tensorflow-core-platform -->
         <dependency>
             <groupId>org.tensorflow</groupId>
-            <artifactId>tensorflow</artifactId>
-            <version>1.15.0</version>
+            <artifactId>tensorflow-core-platform</artifactId>
+            <version>0.3.1</version>
         </dependency>
         <dependency>
             <groupId>org.ojalgo</groupId>
             <artifactId>ojalgo</artifactId>
-            <version>48.3.1</version>
+            <version>48.4.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ojalgo</groupId>
+            <artifactId>ojalgo</artifactId>
+            <version>48.4.2</version>
+            <classifier>tests</classifier>
+            <type>test-jar</type>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>

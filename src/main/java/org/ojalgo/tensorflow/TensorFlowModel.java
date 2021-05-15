@@ -19,12 +19,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package dummy;
+package org.ojalgo.tensorflow;
 
+public class TensorFlowModel {
 
-public class Dummy {
-
-    public Dummy() {
+    public TensorFlowModel() {
+        super();
     }
 
 }
